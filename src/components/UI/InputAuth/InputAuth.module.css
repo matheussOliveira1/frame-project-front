@@ -1,0 +1,26 @@
+.boxInpts{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 8px;
+}
+
+.inputAuth,
+.inputEmail {
+  border: none;
+  padding: 14px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  background-color: #121212;
+  color: #f2f2f2;
+  outline: none;
+  border-radius: 5px;
+}
+
+.inputAuth {
+  width: 250px;
+}
+
+.inputEmail {
+  width: 100%;
+}
