@@ -1,0 +1,32 @@
+.containerProfile{
+    display: flex;
+    height: 100dvh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxProfile{
+    display: flex;
+    width: 60%;
+    height: 80dvh;
+    background-color: #212121;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.boxUserName,
+.boxButton {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.boxButton, 
+.boxEmail, 
+.boxUserName{
+    width: 70%;
+}

@@ -1,0 +1,33 @@
+.boxBoardItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 64px;
+    gap: 8px;
+    border: 4px solid #212121;
+    border-radius: 10px;
+}
+
+.boardName{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.boxBoardItem:hover{
+    background-color: #212121;
+}
+
+.imgDeleteBoard{
+    cursor: pointer;
+    height: 100%;
+}
+
+.imgDeleteBoard:hover{
+    filter: invert(60%) sepia(88%) saturate(6546%) hue-rotate(3deg) brightness(100%) contrast(150%);
+}

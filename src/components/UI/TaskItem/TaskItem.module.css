@@ -1,0 +1,32 @@
+.containerItem{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+}
+
+.boxItem{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #121212;
+    border-radius: 10px;
+    width: 70%;
+    height: 64px;
+    justify-content: space-between;
+    padding: 0 24px;
+    box-shadow: 2px 7px 20px 0px black;
+}
+
+.iconTask{
+    cursor: pointer;
+}
+
+.imgDeleteBoard{
+    cursor: pointer;
+    height: 100%;
+}
+
+.imgDeleteBoard:hover{
+    filter: invert(60%) sepia(88%) saturate(6546%) hue-rotate(3deg) brightness(100%) contrast(150%);
+}
